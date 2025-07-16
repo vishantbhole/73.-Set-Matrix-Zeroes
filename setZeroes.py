@@ -33,3 +33,8 @@ class Solution(object):
                 matrix[0][c] = 0
 
         return matrix
+
+if __name__ == "__main__":
+    obj = Solution()
+    matrix = [[1,1,1],[1,0,1],[1,1,1]]
+    print(obj.setZeroes(matrix))
